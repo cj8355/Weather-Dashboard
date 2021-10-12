@@ -1,0 +1,179 @@
+/*Sets the styling for the Search button*/
+#submitCity {
+    border-radius: 15px;
+    border: none;
+    height: 40px;
+    color: white;
+    font-size: 1.5rem;
+    background-color: rgb(41, 99, 187);
+    float: left;
+  }
+
+
+/*Sets the styling, size and alignment for the cards that are created for the 5 day forecast*/
+#Events div {
+  color: white;
+  background-color: rgb(3, 40, 82);
+  margin: 5px;
+  padding: 5px;
+  height: 225px;
+  width: 200px;
+  display: flex;
+  text-align: left;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+/*Puts a border and adds padding for the container that displays the current weather*/
+#Current div {
+  text-align: left;
+  border: 3px solid black;
+  padding: 5px;
+  width: 100%;
+}
+
+/*Sets the size for the weather icon*/
+img {
+  height: 35px;
+  width: 35px;
+}
+
+/*Sets the properties for the input city box*/
+  #city {
+    margin-bottom: 15px;
+    height: 40px;
+    float: left;
+  }
+
+  /*Sets the text color and alignment, padding and sets a gradient background for Weather Dashboard at the top of the page*/
+  h1 {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-image: linear-gradient(to right, rgb(49, 49, 192) , rgb(1, 5, 43));
+  }
+
+  /*Sets the styling and alignment for the "Search for a City" text*/
+  h2 {
+    color: black;
+    float: left;
+    font-weight: bold;
+  }
+  
+  #Events {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .event-card {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  
+  
+/*Sets the display to flex and aligns the content center. Sets the font size and padding.*/
+  #search-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    padding: 5px;
+  }
+
+  /*Sets the background color based off the UVI*/
+#favorable {
+  background-color: green;
+}
+
+/*Sets the background color based off the UVI*/
+#moderate {
+  background-color: yellow;
+}
+
+/*Sets the background color based off the UVI*/
+#severe {
+  background-color: red;
+}
+ 
+
+/*Alignment for the left half of the page container named leftside which is a child of nextto*/
+.leftside {
+  display: flex;
+  margin-left: 15px;
+  vertical-align: top;
+  flex-direction: column;
+  width: 17%;
+}
+
+/*Sets the display for the current weather conditions card*/
+#Current {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+  /*Sets the alignment for the cities stored in local storage*/
+#citiesList {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+/*Container in which the leftside and rightside elements exist in*/
+.nextto {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+/*Alignment for the right half of the page container named rightside which is a child of nextto*/
+.rightside {
+  width: 60%;
+  margin-left: 15px;
+}
+
+#group1 {
+  display: flex;
+}
+
+/*Sets the display to flex and width to 100 for the text "5-Day Forecast"*/
+h3 {
+  display: flex;
+  width: 100%;
+}
+
+.splitPage {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+}
+
+/*Sets the width*/
+#group1 {
+  width: 100%;
+}
+
+/*Sets the text at the tope of the current days weather to bold, capitalizes it and sets the font size.*/
+#new22 { 
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 1.7rem;
+}
+
+/*Sets the date at the top of each weather card to bold*/
+#fiveDayDate {
+  font-weight: bold;
+}
+
+/*Sets the background color, margin, and round the border for the buttons created from local storage/searched cities*/
+.research {
+  background-color: rgb(165, 164, 164);
+  margin: 5px 0px 5px 0px;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+}
